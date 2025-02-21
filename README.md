@@ -54,7 +54,7 @@ This repository contains solutions to the **TypeScript Class Task Assignment**, 
 Feel free to contribute by submitting pull requests or reporting issues.
 
 ## Author
-[Your Name]
+[Abdullah Aljohani]
 
 ## License
 This project is licensed under the MIT License.
