@@ -127,6 +127,20 @@ console.log(createUser(newUser))
 
 console.log("----------Section 4 / Task 5-----------")
 
+function filterArray<T>(array: T[], predicate: (item: T) => boolean): T[] {
+    return array.filter(predicate);
+}
+
+// Example usage:
+const numbers = [1, 2, 3, 4, 5, 6];
+const evenNumbers = filterArray(numbers, num => num % 2 === 0);
+console.log(evenNumbers); // Output: [2, 4, 6]
+
+const words = ["apple", "banana", "cherry", "date"];
+const longWords = filterArray(words, word => word.length > 5);
+console.log(longWords); // Output: ["banana", "cherry"]
+
+
 interface User {
     id: number;
     name: string;
